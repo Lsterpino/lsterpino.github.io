@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estiloCurriculum.css">
+    <script src="https://kit.fontawesome.com/0dd5939d85.js" crossorigin="anonymous"></script>
+    <title>Curriculum vitae</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="links"><a href="#datos" id="boton_datos">Datos</a></li>
+            <li class="links"><a href="#experiencia" id="boton_experiencia">Experiencia</a></li>
+            <li class="links"><a href="#habilidades" id="boton_habilidades">Habilidades</a></li>
+            <li class="links"><a href="#contacto" id="boton_contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <header>
+
+        <img src="foto_curriculum.png" alt="Foto de perfil">
+        <h1>Jeff Hill</h1>
+        <h3>Programador</h2>
+    </header>
+
+    <main>
+        <section id="datos">
+            <h2>Datos personales</h2>
+            <ul>
+                <li>Edad: 36 años</li>
+                <li><i class="fa-solid fa-envelope"></i>Email: jeff.hill@example.com</li>
+                <li><i class="fa-solid fa-phone"></i>Tel: (662)909-6711</li>
+                <li><i class="fa-solid fa-location-dot"></i>Direccion: 8248 Spring St</li>
+            </ul>
+        </section>
+        <section id="experiencia">
+            <h2>Experiencia Laboral</h2>
+            <ul>
+                <li>
+                    <h4>2021-2022 : Desarrollador Java en Easy</h4>
+                    <p>Colaboracion en el desarrollo de base de datos</p>
+                </li>
+                <li>
+                    <h4>2022-Actualidad : Programador Web en GoDesign</h4>
+                    <p>Diseño web y mantenimiento de paginas web</p>
+                </li>
+            </ul>
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Resolucion de problemas</li>
+                <li>Trabajo en equipo</li>
+                <li>Aprendizaje rapido</li>
+                <li>Dominio de: C , Java, HTML, CSS, Javascript</li>
+                <li>Conocimiento de base de datos MySQL</li>
+            </ul>
+        </section>
+    </main>
+    <footer id="contacto">
+        <h2>Contactame</h2>
+        <form action="" method="get">
+            <div class="contenedor">
+                <div>
+                    <label>Nombre:</label>
+                    <input id="nombre" type="text" name="nombre" required>
+                </div>
+                <div>
+                    <label>Apellido:</label>
+                    <input id="apellido" type="text" name="apellido" required>
+                </div>
+                <div>
+                    <label>Email:</label>
+                    <input id="email" type="email" name="email" required>
+                </div>
+                <div>
+                    <label>Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                <div><input id="boton" type="button" value="Enviar"></div>
+                <p id="respuesta">
+                </p>
+            </div>
+        </form>
+    </footer>
+    <div id="redes">
+        <ul>
+            <li class="links"><a href="#instagram"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+            <li class="links"><a href="#facebook"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+            <li class="links"><a href="#twitter"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+        </ul>
+    </div>
+    <script src="curriculum.js"></script>
+</body>
+
+</html>
